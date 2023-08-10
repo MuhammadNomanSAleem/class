@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.abc{
+    height: 500px;
+    width: 500px;
+    border: 5px;
+    font-style: italic;
+    font-size: xx-large;
+    border-style: solid;
+}
+.abc>form{
+    height: 80px;
+    width: 200px;
+    border-style: double;
+    margin-inline: auto;
+
+}
+button{
+    background-color: orangered;
+    height: 50px;
+    width: 100px;
+}

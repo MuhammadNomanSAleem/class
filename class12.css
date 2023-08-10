@@ -1,0 +1,33 @@
+body {
+  font-style: italic;
+}
+div > h1 {
+  background-color: darkgrey;
+  color: green;
+}
+.xyz {
+  font-size: 40px;
+  color: red;
+  text-align: center;
+}
+div {
+  background-color: rgb(229, 255, 190);
+  font-style: initial;
+}
+div > p {
+  font-size: 1.25rem;
+  color: red;
+}
+ol {
+  font-size: 20px;
+}
+div > ul {
+  font-size: 30px;
+  color: rgb(51, 61, 0);
+}
+ul ol {
+  background-color: rgb(170, 255, 0);
+}
+h1{
+    text-align: center;
+}

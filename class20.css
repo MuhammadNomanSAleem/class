@@ -1,0 +1,64 @@
+body{
+    min-height: 100vh;
+    background-color: rgb(0, 94, 16);
+    margin: 0;
+
+}
+.main{
+    display: flex;
+    /* justify-content: center;
+    justify-content: end;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+  */ 
+  flex-wrap: wrap;
+  align-items: center;
+    flex-direction: column;
+}
+
+/* .main{
+    flex-direction: column;
+} */
+.main{
+    height: 1000px;
+    /* align-items: flex-end;
+    align-items: self-start;
+    align-items: center; */
+}
+
+.main div{
+    height: 100px;
+    width: 6.25rem;
+    margin-bottom: .625rem;
+    background-color: red;
+    text-align: center;
+    line-height: 80px;
+    animation-name: spin;
+    animation-duration: 15s;
+    animation-delay: 1s;
+    
+    
+}
+@keyframes spin {
+    0%{
+        transform: rotate(360deg);
+        transform: translateX(0px);
+    }
+    25%{
+        transform: rotate(270deg);
+        transform: translateX(-250px);
+    } 50%{
+        transform: rotate(180deg);
+        transform: translateX(-500px);
+    } 75%{
+        transform: rotate(90deg);
+        transform: translateX(-250px);
+    }
+     100%{
+        transform: rotate(0deg);
+        transform: translateX(-500px);
+    }
+}

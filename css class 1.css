@@ -1,0 +1,28 @@
+body {
+  background-color: rgba(67, 64, 64, 0.141);
+}
+h1 {
+  background-color: rgb(144, 144, 144);
+}
+.xyz {
+  color: rgb(0, 0, 0);
+  font-style: italic;
+}
+li {
+  font-size: 30px;
+  background-color: rgb(161, 255, 127);
+}
+* {
+  border: 0.0625rem;
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: 1cap;
+  word-spacing: 1px;
+}
+@font-face {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  src: url();
+}
+* {
+  background-image: image("https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1553095066-5014bc7b7f2d%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%253D%26w%3D1000%26q%3D80&tbnid=Xj9Yp8500BYZ-M&vet=12ahUKEwiFgqPktf7_AhUhmycCHXUIDQIQMygGegUIARD2AQ..i&imgrefurl=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fwall-background&docid=i5oUTEWCwPkbrM&w=1000&h=666&q=background%20image&ved=2ahUKEwiFgqPktf7_AhUhmycCHXUIDQIQMygGegUIARD2AQ");
+}

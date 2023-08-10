@@ -1,0 +1,34 @@
+.abc {
+  background-color: rgba(0, 0, 0, 0.592);
+  width: 1000px;
+  height: 1000px;
+  min-width: 100px;
+  min-height: 100px;
+  max-height: 500px;
+  max-width: 500px;
+  text-align: justify;
+  text-decoration: overline;
+  color: ghostwhite;
+  overflow: auto;
+  border: 1px;
+  margin: 20px 30px 2.5rem 30px;
+  border: 5px solid black;
+  padding: 2px;
+  border-radius: 20px 20px 20px 20px;
+  display: flexbox;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: yellowgreen;
+}
+h1 {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.592);
+  height: auto;
+}
+div {
+  text-transform: uppercase;
+  text-align: start;
+}

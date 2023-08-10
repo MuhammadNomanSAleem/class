@@ -1,0 +1,27 @@
+*
+{
+    margin: 0;
+}
+body{
+    min-height: 100vh;
+    background-color: gold;
+
+}
+ p[class]{
+    color: red;
+} 
+p[class="third"]{
+    text-decoration: underline;
+}
+p[class~="two"] {
+    color: green;
+}
+p[class^="f"]{
+    font-size: xx-large;
+}
+p[class*=r]{
+    font-style: italic;
+}
+p[class$=d]{
+    background-color: blue;
+}

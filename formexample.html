@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+  <title>Form:</title>
+</head>
+<style>
+  fieldset {
+    border: 5cap;
+  }
+</style>
+<body>
+  <form>
+    <fieldset width="12.5rem" height="15.625rem">
+      <legend style="text-align: center"><h1>Membership Form:</h1></legend>
+      <b><label for="Username:">Username:</label></b>
+      <input type="text" name="Username:" id="Username:" /> <br />
+      <hr />
+      <b> <label for="Email Address:">Email Address:</label></b>
+      <input type="email" name="Email Address:" id="Email Address:" /> <br />
+      <hr />
+      <b><label for="Contact Number:">Contact Number:</label></b>
+      <input type="number" name="Contact Number:" id="Contact Number:" /> <br />
+      <hr />
+      <b><label for="Gender:">Gender:</label></b>
+      <input type="radio" name="Gender:" id="Gender:" />Male:
+      <input type="radio" name="Gender:" id="Gender::" />Female:
+      <input type="radio" name="Gender:" id="Gender:" />Other <br />
+      <hr />
+      <b> <label for="date">Registration Date:</label></b> 
+      <input type="date" name="date" id="date" /> <br />
+      <hr />
+      <b><label for="Membership type">Membership type</label></b>
+      <input
+        type="checkbox"
+        name="Membership type"
+        value="Yearly"
+        id="Membership type"
+      />
+      Yearly.
+      <input
+        type="checkbox"
+        name="Membership type"
+        value="LifeTime"
+        id="Membership type"
+      />LifeTime <br />
+      <hr />
+      <button type="submit">Submit</button>
+    </fieldset>
+  </form>
+</body>
